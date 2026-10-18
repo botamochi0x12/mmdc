@@ -33,3 +33,6 @@ script/rake
 script/setup
 script/spring
 /script/
+
+# 本番スナップショットの DB (db/snapshot/*.jsonl から作り直せる)
+/db/snapshot/*.sqlite3
